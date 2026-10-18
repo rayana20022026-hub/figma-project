@@ -1,0 +1,70 @@
+@media (max-width:1000px){
+    .hero-text{
+        width: 50%;
+        margin-top: 5%;
+    }
+}
+.hero-img{
+    width: 40%;
+}
+@media  (max-width:740px){
+
+nav{
+    display: block;
+}
+.nav-links{
+    display: block;
+}
+.nav-links li{
+    margin-left: 0;
+    margin-top: 10px;
+}
+.hero-btns button{
+    margin-top: 10px;
+}
+
+.milestones-cards{
+     flex-wrap: wrap;
+}
+.milestones-card{
+    margin-top: 10px;
+}
+.testimonial-cards{
+     flex-wrap: wrap;
+}
+.testimonial-card{
+    width: 45%;
+    margin-top: 10px;
+}
+.footer{
+    display: block;
+}
+.footer-logo{
+    margin-top: 10px;
+}
+}
+@media (max-width:600px){
+.services{
+    text-align: center;
+}
+.services-cards{
+    display: block;
+}
+.services-card{
+    width: 95%;
+    margin-top: 10px;
+}
+
+}
+@media (max-width:550px){
+.hero-img{
+    display: none;
+}
+.hero-text{
+    width: 100%;
+}
+
+}
+
+
+
